@@ -8,6 +8,10 @@ Tiger re-identification aims to find all image in the database containing the sa
 
 The original challenge website is provided [here](https://cvwc2019.github.io/challenge.html).
 
+## Methods
+Overall Architecture:
+![alt text](./overall_architecture.PNG?raw=true)
+
 ## Dataset 
 One can download the dataset [here](https://drive.google.com/file/d/1QmvUBz07IphyIi-80iz5B5ZWMEC0IrSq/view?usp=sharing).
 
