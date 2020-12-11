@@ -12,6 +12,13 @@ The original challenge website is provided [here](https://cvwc2019.github.io/cha
 Overall Architecture:
 ![alt text](./overall_architecture.PNG?raw=true)
 
+Methods Used:
+1. Produced semantic masks based on pose labels, later served as pseudo ground truth labels for training on semantic segmentation.
+2. Train semantic segmentation model to identify and extract local features from specific body parts. 
+3. Integrating the training paths of re-id and segmentation, enabled end-to-end training and considered both global and local features.
+
+For the detail of our model, please refer to 'final_poster.pdf'
+
 ## Dataset 
 One can download the dataset [here](https://drive.google.com/file/d/1QmvUBz07IphyIi-80iz5B5ZWMEC0IrSq/view?usp=sharing).
 
