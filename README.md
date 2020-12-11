@@ -40,7 +40,7 @@ All the csv files are in the format:
 
 > Note that you are **not allowed to** use query.csv and gallery.csv to train your model. Those can only be used to calculate Rank1 to evaluate your performance. 
 
-### Evaluation & Grading 
+### Evaluation 
 We use Rank1 to evaluate the model performance. We provide the script to evaluate the performance of your algorithm (`evaluate.py`). One can use the following command to calculate Rank1:
 ```
 python3 evaluate.py --query $1 --gallery $2 --pred $3
